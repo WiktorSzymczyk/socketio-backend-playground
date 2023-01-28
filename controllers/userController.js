@@ -1,4 +1,5 @@
 const Blog = require('../models/userModel')
+const bcrypt = require('bcrypt')
 
 const createBlogPost = async(req, res) => {
     try {
