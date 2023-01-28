@@ -1,0 +1,15 @@
+@host = http://localhost:7000
+
+###
+GET {{host}}
+
+###
+POST {{host}}/blog
+Content-Type: application/json
+
+{
+    "name": "Wiktor",
+    "username": "koziu",
+    "email": "wiktor.szymczyk202@outlook.com",
+    "password": "Koziu33"
+}
